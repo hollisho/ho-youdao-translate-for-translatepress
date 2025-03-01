@@ -1,0 +1,17 @@
+{
+    "name": "hollisho/translatepress-youdao",
+    "autoload": {
+        "psr-4": {
+            "hollisho\\translatepress\\translate\\youdao\\inc\\": "inc/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Hollis Ho",
+            "email": "he_wenzhi@126.com",
+            "homepage": "https://www.1024plus.com",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "dev"
+}
