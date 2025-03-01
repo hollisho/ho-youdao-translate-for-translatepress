@@ -78,6 +78,6 @@ Ho YouDao Translate For TranslatePress 是一个TranslatePress插件的扩展，
 
 == Additional Info ==
 
-* 插件主页：https://www.1024plus.com
-* 开发者主页：https://www.1024plus.com
+* 插件主页：https://github.com/hollisho/ho-youdao-translate-for-translatepress
+* 开发者主页：https://github.com/hollisho
 * 有道翻译API文档：https://ai.youdao.com/DOCSIRMA/html/trans/api/plwbfy/index.html 
