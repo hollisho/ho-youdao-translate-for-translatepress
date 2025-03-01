@@ -39,8 +39,6 @@ if ( PHP_VERSION_ID < 70200 ) {
 	return;
 }
 
-load_plugin_textdomain( 'ho-youdao-translate-for-translatepress', false, dirname( plugin_basename( __FILE__ ) ) . '/languages' );
-
 
 //check translatepress is active
 if (!in_array('translatepress-multilingual/index.php', get_option('active_plugins'))) {
@@ -53,7 +51,10 @@ if (file_exists(dirname(__FILE__) . '/vendor/autoload.php')) {
 
 
 if (class_exists(Init::class)) {
-    add_action( 'plugins_loaded', [Init::class, 'registerService'], -999 );
+    add_action( 'plugins_loaded', function () {
+		load_plugin_textdomain( 'ho-youdao-translate-for-translatepress', false, dirname( plugin_basename( __FILE__ ) ) . '/languages' );
+		Init::registerService();
+	}, -999 );
 }
 
 register_activation_hook(__FILE__, function () {
