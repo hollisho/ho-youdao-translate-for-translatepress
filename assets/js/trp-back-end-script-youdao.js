@@ -1,4 +1,4 @@
-jQuery( function() {
+jQuery(document).on('trpInitFieldToggler', function() {
     var youdaoTranslateKey = TRP_Field_Toggler();
     youdaoTranslateKey.init('.trp-translation-engine', '#trp-youdao-api-key', 'youdao_translate' );
 
@@ -13,5 +13,4 @@ jQuery( function() {
     }
 
     TRP_show_hide_machine_translation_options();
-
-});
+})

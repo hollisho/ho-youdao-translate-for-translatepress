@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Ho YouDao Translate For TranslatePress
  * Description: YouDao Translate For TranslatePress youdao machine translation engine
- * Version: 1.0.0
+ * Version: 1.0.1
  * Author: Hollis Ho
  * Author URI: https://github.com/hollisho
  * Text Domain: ho-youdao-translate-for-translatepress

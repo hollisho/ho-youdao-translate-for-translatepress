@@ -1,10 +1,11 @@
 === Ho YouDao Translate For TranslatePress ===
 Contributors: hollisho
+Donate link: https://www.1024plus.com/
 Tags: translatepress, youdao, translate, translation, multilingual
 Requires at least: 6.0
 Tested up to: 6.7
 Requires PHP: 7.2
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -70,6 +71,9 @@ Ho YouDao Translate For TranslatePress 是一个TranslatePress插件的扩展，
 
 = 1.0.0 =
 * 初始版本发布
+
+= 1.0.1 =
+* YouDao js文件bugfix
 
 == Upgrade Notice ==
 
